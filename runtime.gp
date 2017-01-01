@@ -13,4 +13,5 @@ plot [64:35000][0:] 'result_clock_gettime.csv' using 1:2 w l lw 1 title 'baselin
 '' using 1:4 w l lw 1 title 'omp_4', \
 '' using 1:5 w l lw 1 title 'avx', \
 '' using 1:6 w l lw 1 title 'avxunroll', \
-'' using 1:7 w l lw 1 title 'leibniz'
+'' using 1:7 w l lw 1 title 'leibniz', \
+'' using 1:8 w l lw 1 title 'euler'

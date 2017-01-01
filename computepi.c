@@ -130,3 +130,14 @@ double compute_pi_leibniz(size_t N)
     }
     return pi * 4.0;
 }
+
+double compute_pi_euler(size_t N)
+{
+    double pi = 0.0;
+    for(int i=0; i<N; i++)
+    {
+        pi += (double) (1/pow(i,2));        
+    }
+    pi *=6;
+    return sqrt(pi);
+}
